@@ -22,10 +22,12 @@
   transform: translateX(-20vw);
 }
 .bar {
-  background-color: pink;
+  background-color: rgb(7.9, 255, 0);
+  background-color: rgb(255, 7.9, 0);
+  /* background-color: pink; */
   border: solid;
   width: 1vw;
-  animation: enter 1s infinite;
+  animation: enter 1s forwards;
 }
 @keyframes enter {
   from {

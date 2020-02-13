@@ -1,133 +1,166 @@
 [data-bar="0"] {
   height: 0vh;
+  background: #01ff00;
 }
 
 [data-bar="1"] {
   height: 1vh;
+  background: #09f700;
 }
 
 [data-bar="2"] {
   height: 2vh;
+  background: #11ef00;
 }
 
 [data-bar="3"] {
   height: 3vh;
+  background: #19e700;
 }
 
 [data-bar="4"] {
   height: 4vh;
+  background: #21df00;
 }
 
 [data-bar="5"] {
   height: 5vh;
+  background: #29d800;
 }
 
 [data-bar="6"] {
   height: 6vh;
+  background: #30d000;
 }
 
 [data-bar="7"] {
   height: 7vh;
+  background: #38c800;
 }
 
 [data-bar="8"] {
   height: 8vh;
+  background: #40c000;
 }
 
 [data-bar="9"] {
   height: 9vh;
+  background: #48b800;
 }
 
 [data-bar="10"] {
   height: 10vh;
+  background: #50b000;
 }
 
 [data-bar="11"] {
   height: 11vh;
+  background: #58a800;
 }
 
 [data-bar="12"] {
   height: 12vh;
+  background: #60a000;
 }
 
 [data-bar="13"] {
   height: 13vh;
+  background: #689800;
 }
 
 [data-bar="14"] {
   height: 14vh;
+  background: #709000;
 }
 
 [data-bar="15"] {
   height: 15vh;
+  background: #788900;
 }
 
 [data-bar="16"] {
   height: 16vh;
+  background: #7f8100;
 }
 
 [data-bar="17"] {
   height: 17vh;
+  background: #877900;
 }
 
 [data-bar="18"] {
   height: 18vh;
+  background: #8f7100;
 }
 
 [data-bar="19"] {
   height: 19vh;
+  background: #976900;
 }
 
 [data-bar="20"] {
   height: 20vh;
+  background: #9f6100;
 }
 
 [data-bar="21"] {
   height: 21vh;
+  background: #a75900;
 }
 
 [data-bar="22"] {
   height: 22vh;
+  background: #af5100;
 }
 
 [data-bar="23"] {
   height: 23vh;
+  background: #b74900;
 }
 
 [data-bar="24"] {
   height: 24vh;
+  background: #bf4100;
 }
 
 [data-bar="25"] {
   height: 25vh;
+  background: #c73a00;
 }
 
 [data-bar="26"] {
   height: 26vh;
+  background: #ce3200;
 }
 
 [data-bar="27"] {
   height: 27vh;
+  background: #d62a00;
 }
 
 [data-bar="28"] {
   height: 28vh;
+  background: #de2200;
 }
 
 [data-bar="29"] {
   height: 29vh;
+  background: #e61a00;
 }
 
 [data-bar="30"] {
   height: 30vh;
+  background: #ee1200;
 }
 
 [data-bar="31"] {
   height: 31vh;
+  background: #f60a00;
 }
 
 [data-bar="32"] {
   height: 32vh;
+  background: #fe0200;
 }
 
 /*# sourceMappingURL=css.css.map */

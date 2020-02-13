@@ -1,5 +1,10 @@
+$var: 255;
+$varred: 1;
 @for $i from 0 through 32 {
   [data-bar="#{$i}"] {
     height: #{$i}vh;
+    $varred: $varred + 7.9 * $i;
+    $var: $var - 7.9 * $i;
+    background: rgb($varred, $var, 0);
   }
 }

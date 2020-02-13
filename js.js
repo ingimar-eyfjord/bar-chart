@@ -1,7 +1,7 @@
 const track = document.querySelector(".track");
 let trackArray = [];
 let number = function() {
-  for (let i = 0; i <= 10000; i++) {
+  for (let i = 0; i <= 5000; i++) {
     (function(printrandon) {
       setTimeout(function() {
         let number = Math.floor(Math.random() * 32);
