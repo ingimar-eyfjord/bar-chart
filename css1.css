@@ -1,0 +1,29 @@
+.barcontainer {
+  display: block;
+  position: absolute;
+  width: 30vw;
+  height: 40vh;
+  overflow: scroll;
+  top: 50vh;
+  right: 50vh;
+  transform: translate(-50%, -50%);
+}
+
+.track {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap-reverse;
+  width: 50vw;
+  height: 40vh;
+}
+.bar {
+  background-color: pink;
+  border: solid;
+  width: 1vw;
+  animation: enter 1s infinite;
+}
+@keyframes enter {
+  from {
+    transform: translateX(100%);
+  }
+}
