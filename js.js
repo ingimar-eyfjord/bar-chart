@@ -12,6 +12,7 @@ let number = function() {
             number +
             `"></div>`
         );
+        track.innerHTML += trackArray.join("");
         if (trackArray.length >= 41) {
           trackArray.pop();
         }
@@ -27,3 +28,6 @@ function addbar() {
 }
 const button = document.querySelector(".button");
 button.addEventListener("click", (e = number));
+
+const objDiv = document.querySelector(".barcontainer");
+objDiv.scrollLeft = objDiv.scrollWidth;

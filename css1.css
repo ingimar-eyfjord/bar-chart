@@ -12,19 +12,14 @@
   display: none;
 }
 .track {
-  float: left;
   position: relative;
   display: flex;
   flex-direction: row-reverse;
   flex-wrap: wrap-reverse;
   width: 50vw;
   height: 40vh;
-  transform: translateX(-20vw);
 }
 .bar {
-  background-color: rgb(7.9, 255, 0);
-  background-color: rgb(255, 7.9, 0);
-  /* background-color: pink; */
   border: solid;
   width: 1vw;
   animation: enter 1s forwards;
