@@ -8,13 +8,18 @@
   right: 50vh;
   transform: translate(-50%, -50%);
 }
-
+.barcontainer::-webkit-scrollbar {
+  display: none;
+}
 .track {
+  float: left;
+  position: relative;
   display: flex;
   flex-direction: row-reverse;
   flex-wrap: wrap-reverse;
   width: 50vw;
   height: 40vh;
+  transform: translateX(-20vw);
 }
 .bar {
   background-color: pink;
