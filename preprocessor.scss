@@ -4,7 +4,7 @@ $varred: 1;
   [data-bar="#{$i}"] {
     height: #{$i}vh;
     $varred: $varred + 7.9 * $i;
-    $var: $var - 7.9 * $i;
+    $var: $var - 1 * $i;
     background: rgb($varred, $var, 0);
   }
 }

@@ -1,6 +1,6 @@
 const track = document.querySelector(".track");
 let trackArray = [];
-let number = function() {
+function number() {
   for (let i = 0; i <= 5000; i++) {
     (function(printrandon) {
       setTimeout(function() {
@@ -12,7 +12,7 @@ let number = function() {
             number +
             `"></div>`
         );
-        track.innerHTML += trackArray.join("");
+        // track.innerHTML += trackArray.join("");
         if (trackArray.length >= 41) {
           trackArray.pop();
         }
@@ -20,14 +20,13 @@ let number = function() {
       }, printrandon * 1000);
     })(i);
   }
-};
+}
 function addbar() {
   if (trackArray.length >= 0) {
     track.innerHTML = trackArray.join("");
   }
 }
-const button = document.querySelector(".button");
-button.addEventListener("click", (e = number));
+document.querySelector(".button").addEventListener("click", number);
 
 const objDiv = document.querySelector(".barcontainer");
 objDiv.scrollLeft = objDiv.scrollWidth;
